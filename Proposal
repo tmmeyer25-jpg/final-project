@@ -1,0 +1,44 @@
+# Proposal
+
+## What will (likely) be the title of your project?
+Expense tracker
+TODO
+
+## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
+I am making a website that tracks expenses.
+TODO
+
+## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
+
+My project is a Python‑based expense tracker designed to help users monitor their personal spending in a simple, organized, and visually clear way. The software will allow users to add new expenses by entering details such as the date, category, description, and amount. It will store all entries in a structured format—either a CSV file or a lightweight database—so that data persists between sessions. Key features include the ability to view all expenses in a neatly formatted table, filter spending by category or date range, calculate totals and averages, and generate summaries that highlight where the user’s money is going
+
+TODO
+
+## If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
+no one
+TODO, if applicable
+
+## If planning to collaborate with 1 or 2 classmates for the final project, list their names, email addresses, and the names of their assigned TAs below.
+no one
+TODO, if applicable
+
+## In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
+
+### In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
+A good outcome is accurately tracking any expenses.
+TODO
+
+### In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
+I think at least I can get half of my expenses tracked accurately 
+TODO
+
+### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
+The best outcome is getting all of my expenses tracked.
+
+TODO
+
+## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
+
+Moving forward, my next steps involve expanding both my technical skills and my understanding of how real‑world budgeting tools are designed. I’ll need to strengthen my knowledge of file handling in Python so I can reliably save and load expense data using formats like CSV or JSON. I also plan to research best practices for organizing code into functions and modules, since a clean structure will make the program easier to maintain and extend. To support features like filtering and summaries, I’ll need to review Python techniques for working with lists, dictionaries, and date handling.
+
+TODO
