@@ -1,17 +1,6 @@
-Fish vs Sharks
-A simple arcade-style shooter built with Python and Pygame. You play as a small fish defending yourself against a wave of sharks descending from above.
-Gameplay
-Pilot your fish left and right across the bottom of the screen and shoot bubbles upward to take out the sharks before they reach you. The longer you survive, the faster and more frequently the sharks appear — so stay sharp.
-A-Move left→ / D-Move right/ Space-Shoot
-Scoring
-You earn 10 points per shark destroyed. Your final score is shown on the game over screen.
-Tips
-Sharks spawn at random horizontal positions and swim straight down — learn to prioritize the ones heading directly for you.
-You don't have unlimited bullets on screen, so shoot steadily rather than spamming.
-The game gets progressively harder as your score climbs, so an early lead helps.
-What I Enjoyed
-The most satisfying part was drawing the characters entirely with primitive shapes — ellipses, polygons, and circles. It's a small thing, but seeing a flat grey rectangle transform into a recognisable shark with a dorsal fin, a beady eye, and a pale belly stripe felt genuinely rewarding. The same goes for the fish: giving it a tail, a top fin, and a little glinting eye made the player character feel alive in a way a plain ellipse never could. There's something charming about lo-fi pixel-art style creatures built out of basic geometry.
-Challenges
-The trickiest part was the enemy movement redesign. The original sharks moved side-to-side and bounced off walls, which gave the game a classic Space Invaders feel. Switching to top-to-bottom movement meant rethinking the spawn logic entirely — sharks no longer needed a starting Y range or a lateral direction, just a random X position and a downward speed. Simple in the end, but it required careful cleanup to avoid leftover bounce logic causing weird behaviour.
-What I Learned
-How much game feel comes from speed tuning rather than content. Halving a few numbers made the game feel like a completely different experience.
+Fish vs Sharks is a simple arcade-style shooter built with Python and Pygame. You play as a small fish defending yourself against a wave of sharks descending from above. Pilot your fish left and right across the bottom of the screen and shoot upward to take out the sharks before they reach you. The longer you survive, the faster and more frequently the sharks appear, so stay sharp.
+To move your fish, use the left and right arrow keys or A and D. Press Space to shoot. You earn 10 points per shark destroyed, and your final score is shown on the game over screen when a shark reaches you.
+A few tips to help you last longer: sharks spawn at random horizontal positions and swim straight down, so try to prioritise the ones heading directly toward you. Shoot steadily rather than spamming, as there is a limit to how many shots can be on screen at once. The game gets progressively harder as your score climbs, so clearing sharks quickly early on gives you more breathing room later.
+The most satisfying part of building this was drawing the characters entirely with primitive shapes — ellipses, polygons, and circles. It's a small thing, but seeing a flat grey rectangle transform into a recognisable shark with a dorsal fin, a beady eye, and a pale belly stripe felt genuinely rewarding. The same goes for the player fish: giving it a tail, a top fin, and a little glinting eye made it feel alive in a way a plain ellipse never could. There's something charming about creating expressive characters out of nothing but basic geometry.
+The trickiest part was redesigning how the enemies move. Originally the sharks travelled side to side and bounced off the walls, which gave the game a classic Space Invaders feel. Switching them to move straight downward meant rethinking the spawn logic entirely — sharks no longer needed a starting height range or a left and right direction assigned at spawn, just a random horizontal position and a downward speed. It was simple in the end, but it required careful cleanup to make sure no leftover bounce logic was still running and causing odd behaviour.
+The biggest thing I took away from this project is how much of a game's feel comes from speed tuning rather than adding new content. Adjusting the player speed, bullet speed, enemy speed, spawn rate, and difficulty curve all at once completely changed how the game played. Halving a few numbers turned a frantic, punishing experience into something relaxed and approachable. It taught me that balancing a game is its own skill, entirely separate from building it
